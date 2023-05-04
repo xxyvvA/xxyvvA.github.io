@@ -1,0 +1,50 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(10, 10, 10, 1);
+    padding: 0 30px;
+    font-family: "JetBrains Mono Medium", monospace;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: coral;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-item {
+    display: block;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.contact {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: coral;
+}
+
+.contact:hover a {
+    color: black
+}
